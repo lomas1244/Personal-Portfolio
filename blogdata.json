@@ -1,0 +1,44 @@
+{
+  "blogs": [
+    {
+      "title": "16 Books Every Creative Must Read",
+      "subtitle": "iOS Application",
+      "image": "https://s3.eu-west-2.amazonaws.com/jamesportfolio/Stephen_Gates_cover.jpeg",
+      "description": "Currently Executive Creative Director at InVision, Stephen Gates is an inspirational designer who values the important alignment of the designer's work and the deliverables required for a functioning business",
+      "url": "https://entrepreneurs.maqtoob.com/16-books-every-creative-must-read-2b9101298498",
+      "author": "https://s3.eu-west-2.amazonaws.com/jamesportfolio/Stephen-Gates.jpg"
+    },
+    {
+      "title": "The psychology behind UX",
+      "subtitle": "iOS Application",
+      "image": "https://s3.eu-west-2.amazonaws.com/jamesportfolio/1*KB2KSwJq06LLyzA2_t-h1w.gif",
+      "description": "This is the description of this blog content",
+      "url": "https://blog.prototypr.io/7-principal-psychological-phenomena-in-ux-design-1104e09fc974",
+      "author": "https://s3.eu-west-2.amazonaws.com/jamesportfolio/project_accentpos.gif"
+    },
+    {
+      "title": "The art of Wireframing",
+      "subtitle": "iOS Application",
+      "image": "https://s3.eu-west-2.amazonaws.com/jamesportfolio/project_note.gif",
+      "description": "This is the description of this blog content",
+      "url": "https://medium.com/@NautilusMag/ideology-is-the-original-augmented-reality-b88e2007eb31",
+      "author": "https://s3.eu-west-2.amazonaws.com/jamesportfolio/project_accentpos.gif"
+    },
+    {
+      "title": "AccentPOS®",
+      "subtitle": "iOS Application",
+      "image": "https://s3.eu-west-2.amazonaws.com/jamesportfolio/project_accentpos.gif",
+      "description": "This is the description of this blog content",
+      "url": "https://medium.com/@NautilusMag/ideology-is-the-original-augmented-reality-b88e2007eb31",
+      "author": "https://s3.eu-west-2.amazonaws.com/jamesportfolio/project_accentpos.gif"
+    },
+    {
+      "title": "AccentPOS®",
+      "subtitle": "iOS Application",
+      "image": "https://s3.eu-west-2.amazonaws.com/jamesportfolio/project_accentpos.gif",
+      "description": "This is the description of this blog content",
+      "url": "https://medium.com/@NautilusMag/ideology-is-the-original-augmented-reality-b88e2007eb31",
+      "author": "https://s3.eu-west-2.amazonaws.com/jamesportfolio/project_accentpos.gif"
+    }
+  ]
+}

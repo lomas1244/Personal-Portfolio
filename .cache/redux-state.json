@@ -1,0 +1,3610 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/jameslomas/Desktop/Personal-Portfolio/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/jameslomas/Desktop/Personal-Portfolio/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f60719832fba86eefcb45c7d4762223c",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/jameslomas/Desktop/Personal-Portfolio/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jameslomas/Desktop/Personal-Portfolio/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "d69628c36a96a9facc951e07690931f1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/jameslomas/Desktop/Personal-Portfolio/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jameslomas/Desktop/Personal-Portfolio/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "62686016db4e9f626dbc9223a339ae50",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/jameslomas/Desktop/Personal-Portfolio/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jameslomas/Desktop/Personal-Portfolio/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "234e4a3d57746d1f564d05dc4d798773",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/jameslomas/Desktop/Personal-Portfolio/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jameslomas/Desktop/Personal-Portfolio/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "ff19a1fb26f2f3ef0b80b353be2a1b4d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/jameslomas/Desktop/Personal-Portfolio/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jameslomas/Desktop/Personal-Portfolio/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "46b1e0e749e301310efec43185a119f4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/jameslomas/Desktop/Personal-Portfolio/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jameslomas/Desktop/Personal-Portfolio/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "5ad5ca8a68a9852f8957edf083bc0950",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/jameslomas/Desktop/Personal-Portfolio/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.6",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/jameslomas/Desktop/Personal-Portfolio/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "0d4a2554bc28d80daaf05484885bea43",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "cfb8a5fe-8ff7-5e92-8666-44909b369682": {
+      "resolve": "/Users/jameslomas/Desktop/Personal-Portfolio/node_modules/gatsby-source-contentful",
+      "id": "cfb8a5fe-8ff7-5e92-8666-44909b369682",
+      "name": "gatsby-source-contentful",
+      "version": "2.0.32",
+      "pluginOptions": {
+        "plugins": [],
+        "spaceId": "gawu86z9abol",
+        "accessToken": "e83fce7836304ba2287f90af8166c1a38ffe369f152439246ceb0f829759d6ae",
+        "host": "cdn.contentful.com",
+        "environment": "master"
+      },
+      "nodeAPIs": [
+        "setFieldsOnGraphQLNodeType",
+        "sourceNodes",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jameslomas/Desktop/Personal-Portfolio/node_modules/gatsby-source-contentful",
+      "packageJson": {
+        "name": "gatsby-source-contentful",
+        "description": "Gatsby source plugin for building websites using the Contentful CMS as a data source",
+        "version": "2.0.32",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsby-source-plugin"
+        ],
+        "author": {
+          "name": "Marcus Ericsson",
+          "email": "mericsson@gmail.com",
+          "url": "mericsson.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "axios",
+            "version": "^0.18.0"
+          },
+          {
+            "name": "base64-img",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "contentful",
+            "version": "^6.1.0"
+          },
+          {
+            "name": "deep-map",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.22"
+          },
+          {
+            "name": "is-online",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "json-stringify-safe",
+            "version": "^5.0.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "qs",
+            "version": "^6.4.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e8a2fd0154c66535060970acb5919ec9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "e3f20ca1-3ff7-5b29-995e-d767c0cf8d45": {
+      "resolve": "/Users/jameslomas/Desktop/Personal-Portfolio/node_modules/gatsby-source-filesystem",
+      "id": "e3f20ca1-3ff7-5b29-995e-d767c0cf8d45",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.22",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jameslomas/Desktop/Personal-Portfolio/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.22",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "a2b81d1b4d236bc78f994be00fc1212f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/jameslomas/Desktop/Personal-Portfolio/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.14",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jameslomas/Desktop/Personal-Portfolio/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.14",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "813e2e3293978bdc6be8eaef17fe5fe5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/jameslomas/Desktop/Personal-Portfolio/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.22",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreInit"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jameslomas/Desktop/Personal-Portfolio/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.22",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "3e13f438220a9905e1162076f08f55c4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "81866364-bf9a-5fd3-8928-f5d513eb057e": {
+      "resolve": "/Users/jameslomas/Desktop/Personal-Portfolio/node_modules/gatsby-plugin-manifest",
+      "id": "81866364-bf9a-5fd3-8928-f5d513eb057e",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.19",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "gatsby-starter-default",
+        "short_name": "starter",
+        "start_url": "/",
+        "background_color": "#663399",
+        "theme_color": "#663399",
+        "display": "minimal-ui",
+        "icon": "src/images/logos/portfolioLogo.svg"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/jameslomas/Desktop/Personal-Portfolio/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.19",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c85f53ebc92fdca98441ca29dced449e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/jameslomas/Desktop/Personal-Portfolio",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "fcb35dab69ef3424349e6fdc4322ac5c",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jameslomas/Desktop/Personal-Portfolio",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "A great online portfolio for potential clients and employers to view James's projects",
+        "version": "0.1.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "James Lomas",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@fortawesome/fontawesome-svg-core",
+            "version": "^1.2.17"
+          },
+          {
+            "name": "@fortawesome/free-brands-svg-icons",
+            "version": "^5.8.1"
+          },
+          {
+            "name": "@fortawesome/free-solid-svg-icons",
+            "version": "^5.8.1"
+          },
+          {
+            "name": "@fortawesome/react-fontawesome",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "@material-ui/core",
+            "version": "^3.9.2"
+          },
+          {
+            "name": "@material-ui/icons",
+            "version": "^3.0.2"
+          },
+          {
+            "name": "bootstrap",
+            "version": "^4.3.1"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.1.17"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.29"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.19"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.24"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.6"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.22"
+          },
+          {
+            "name": "gatsby-source-contentful",
+            "version": "^2.0.32"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.22"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.14"
+          },
+          {
+            "name": "i",
+            "version": "^0.3.6"
+          },
+          {
+            "name": "npm",
+            "version": "^6.9.0"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.7.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.8.3"
+          },
+          {
+            "name": "react-bootstrap",
+            "version": "^1.0.0-beta.6"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.8.3"
+          },
+          {
+            "name": "react-flickity-component",
+            "version": "^3.2.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-responsive-carousel",
+            "version": "^3.1.47"
+          },
+          {
+            "name": "styled-components",
+            "version": "^4.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@fortawesome/fontawesome-free",
+            "version": "^5.8.1"
+          },
+          {
+            "name": "eslint",
+            "version": "^5.14.1"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.16.4"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "6072daa747fb5d91f31b9b7904c42fef",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "b8c7762f-a0af-577b-b69c-c42967bb9bf3": {
+      "resolve": "/Users/jameslomas/Desktop/Personal-Portfolio/node_modules/gatsby-plugin-page-creator",
+      "id": "b8c7762f-a0af-577b-b69c-c42967bb9bf3",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.8",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/jameslomas/Desktop/Personal-Portfolio/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jameslomas/Desktop/Personal-Portfolio/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "90ec0b788e8b53d8b26ee12917116b62",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "UI/UX Development | James Lomas",
+        "description": "A great online portfolio for potential clients and employers to view James's projects.",
+        "author": "@jameslomas04",
+        "keywords": "User interface design, user experience design, James Lomas, software, application developer, web developer, frontend web developer, react developer, react native developer"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-04-14T18:37:12.763Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "cf4ed09243d7edb2dbaf6d32110558f9",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f1bef582-5fd9-5c15-a3ab-e285d95b2758": {
+      "id": "f1bef582-5fd9-5c15-a3ab-e285d95b2758",
+      "parent": null,
+      "children": [],
+      "name": "Link",
+      "displayField": "title",
+      "description": "",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "d9fcfd2508b8a6ad337b708e0a693344",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "7b8d3833-b780-5e90-8f20-8a500016a3a8": {
+      "title": "Privacy",
+      "url": "/privacy",
+      "id": "7b8d3833-b780-5e90-8f20-8a500016a3a8",
+      "contentful_id": "6SOvDm332ZzG510WQdvYPM",
+      "createdAt": "2019-02-26T15:06:42.792Z",
+      "updatedAt": "2019-02-26T15:06:42.792Z",
+      "parent": "Link",
+      "children": [],
+      "internal": {
+        "type": "ContentfulLink",
+        "contentDigest": "07548c79e46081fce568e8ca8d4af438",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "74643a38-7437-5826-bd79-a94dd8e0bb3f": {
+      "title": "Contact",
+      "url": "/contact",
+      "id": "74643a38-7437-5826-bd79-a94dd8e0bb3f",
+      "contentful_id": "2gN3IN9U0BKoegVQu5iiKW",
+      "createdAt": "2019-02-26T15:06:20.285Z",
+      "updatedAt": "2019-02-26T15:06:20.285Z",
+      "parent": "Link",
+      "children": [],
+      "internal": {
+        "type": "ContentfulLink",
+        "contentDigest": "5cf36b34545cf52574f18bfa2d53415b",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "d33ee600-455e-57ae-a65b-ebdfe11c4af0": {
+      "title": "About",
+      "url": "/about",
+      "id": "d33ee600-455e-57ae-a65b-ebdfe11c4af0",
+      "contentful_id": "4fI67adf07mspzWzGVi7Ly",
+      "createdAt": "2019-02-26T15:06:06.431Z",
+      "updatedAt": "2019-02-26T15:06:06.431Z",
+      "parent": "Link",
+      "children": [],
+      "internal": {
+        "type": "ContentfulLink",
+        "contentDigest": "786b2a32baaee6b9deab9c3c95b15c21",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "edd4860d-68e1-5f68-9fd6-f8cabad37cb6": {
+      "title": "Courses",
+      "url": "/courses",
+      "id": "edd4860d-68e1-5f68-9fd6-f8cabad37cb6",
+      "contentful_id": "5AIGN0WcUypxJ1FkSy7LV3",
+      "createdAt": "2019-02-26T15:05:53.407Z",
+      "updatedAt": "2019-02-26T15:05:53.407Z",
+      "parent": "Link",
+      "children": [],
+      "internal": {
+        "type": "ContentfulLink",
+        "contentDigest": "d6aae338bbcd6916d461fd6efd954ba8",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "83713569-ac4d-5daf-88e9-bf8d4e9eeedd": {
+      "title": "Home",
+      "url": "/",
+      "id": "83713569-ac4d-5daf-88e9-bf8d4e9eeedd",
+      "contentful_id": "1QrUZbuc0IIY2A6InQlSFF",
+      "createdAt": "2019-02-26T15:05:05.251Z",
+      "updatedAt": "2019-02-26T15:05:05.251Z",
+      "parent": "Link",
+      "children": [],
+      "internal": {
+        "type": "ContentfulLink",
+        "contentDigest": "997039c4b8c6be45f3ee020b73ef6b28",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "f8bb6f21-3a85-57cb-ad0f-3f842a43f262": {
+      "id": "f8bb6f21-3a85-57cb-ad0f-3f842a43f262",
+      "parent": null,
+      "children": [],
+      "name": "Portfolio item",
+      "displayField": "title",
+      "description": "This is a item for the portfolio.",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "3fb22bfd12f9aa075ce1be1d27090207",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "8ee8ebc9-df70-5626-831a-972178985126": {
+      "title": "AccentPOS®",
+      "type": "iOS Application",
+      "backgroundImage___NODE": "9db7badb-7ae9-599d-a250-72d3987713e1",
+      "id": "8ee8ebc9-df70-5626-831a-972178985126",
+      "contentful_id": "4AvUYZyRj5kXeADDoquSna",
+      "createdAt": "2019-03-21T19:56:59.140Z",
+      "updatedAt": "2019-03-21T19:56:59.140Z",
+      "parent": "Portfolio item",
+      "children": [],
+      "internal": {
+        "type": "ContentfulPortfolioItem",
+        "contentDigest": "22efb96ec92ff9909d38ed462bdc16d5",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "9db7badb-7ae9-599d-a250-72d3987713e1": {
+      "contentful_id": "2pOTsTmGyw0KyE0OrTZLQp",
+      "id": "9db7badb-7ae9-599d-a250-72d3987713e1",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.ctfassets.net/gawu86z9abol/2pOTsTmGyw0KyE0OrTZLQp/9f1a6c27404b4db2a432f5940d3d4836/project_accentpos.gif",
+        "details": {
+          "size": 228433,
+          "image": {
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "fileName": "project_accentpos.gif",
+        "contentType": "image/gif"
+      },
+      "title": "AccentPOS Project",
+      "description": "This is the portfolio item for the AccentPOS Project.",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "b031067dff4e03e572b890382c5d487d",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "8b1f6baf-5af0-5926-b9c0-a445ea737382": {
+      "id": "8b1f6baf-5af0-5926-b9c0-a445ea737382",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "464facfe9ac30c24ef1f6c263898aaad",
+        "type": "Directory",
+        "description": "Directory \"src/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 1216,
+      "prettySize": "1.22 kB",
+      "modifiedTime": "2019-04-03T12:07:26.000Z",
+      "accessTime": "2019-04-14T18:37:20.791Z",
+      "changeTime": "2019-04-11T23:19:08.891Z",
+      "birthTime": "2019-02-23T18:02:59.000Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 38,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605475139,
+      "blocks": 0,
+      "atimeMs": 1555267040791.0476,
+      "mtimeMs": 1554293246000,
+      "ctimeMs": 1555024748890.8877,
+      "birthtimeMs": 1550944979000,
+      "atime": "2019-04-14T18:37:20.791Z",
+      "mtime": "2019-04-03T12:07:26.000Z",
+      "ctime": "2019-04-11T23:19:08.891Z",
+      "birthtime": "2019-02-23T18:02:59.000Z"
+    },
+    "7300171d-a1db-533b-867c-0a194e9ffdcc": {
+      "id": "7300171d-a1db-533b-867c-0a194e9ffdcc",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a410d3bdb71e2fdcc01a4928260b21d0",
+        "type": "Directory",
+        "description": "Directory \"src/images/logos\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/logos",
+      "relativePath": "logos",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2019-04-03T12:07:26.000Z",
+      "accessTime": "2019-04-14T18:37:20.795Z",
+      "changeTime": "2019-04-03T12:07:57.887Z",
+      "birthTime": "2019-03-14T14:11:57.000Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "logos",
+      "ext": "",
+      "name": "logos",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605521664,
+      "blocks": 0,
+      "atimeMs": 1555267040795.1294,
+      "mtimeMs": 1554293246000,
+      "ctimeMs": 1554293277887.3503,
+      "birthtimeMs": 1552572717000,
+      "atime": "2019-04-14T18:37:20.795Z",
+      "mtime": "2019-04-03T12:07:26.000Z",
+      "ctime": "2019-04-03T12:07:57.887Z",
+      "birthtime": "2019-03-14T14:11:57.000Z"
+    },
+    "c84de13d-c2b6-5f1d-bdc0-54287f9db16f": {
+      "id": "c84de13d-c2b6-5f1d-bdc0-54287f9db16f",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "1c9cf85e1a425f2d514e171dc0fe71d3",
+        "type": "Directory",
+        "description": "Directory \"src/images/websiteScreens\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/websiteScreens",
+      "relativePath": "websiteScreens",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2019-04-11T23:19:20.333Z",
+      "accessTime": "2019-04-14T18:37:20.795Z",
+      "changeTime": "2019-04-11T23:19:20.333Z",
+      "birthTime": "2019-03-21T12:38:58.000Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "websiteScreens",
+      "ext": "",
+      "name": "websiteScreens",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605806485,
+      "blocks": 0,
+      "atimeMs": 1555267040795.1804,
+      "mtimeMs": 1555024760333.3872,
+      "ctimeMs": 1555024760333.3872,
+      "birthtimeMs": 1553171938000,
+      "atime": "2019-04-14T18:37:20.795Z",
+      "mtime": "2019-04-11T23:19:20.333Z",
+      "ctime": "2019-04-11T23:19:20.333Z",
+      "birthtime": "2019-03-21T12:38:58.000Z"
+    },
+    "8dfa7c13-1b50-5df1-b9da-7905293a7a08": {
+      "id": "8dfa7c13-1b50-5df1-b9da-7905293a7a08",
+      "children": [
+        "9fb25bb4-a4a3-516f-92e1-ebf4a3d3def4"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "52d5cf4da423fd8401d765f4cc6b9ded",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/avatar.jpeg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/avatar.jpeg",
+      "relativePath": "avatar.jpeg",
+      "extension": "jpeg",
+      "size": 9216,
+      "prettySize": "9.22 kB",
+      "modifiedTime": "2019-01-10T18:10:39.552Z",
+      "accessTime": "2019-04-13T18:37:58.374Z",
+      "changeTime": "2019-03-14T11:54:38.390Z",
+      "birthTime": "2019-01-10T18:10:39.552Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "avatar.jpeg",
+      "ext": ".jpeg",
+      "name": "avatar",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605500653,
+      "blocks": 24,
+      "atimeMs": 1555180678374.206,
+      "mtimeMs": 1547143839551.785,
+      "ctimeMs": 1552564478389.527,
+      "birthtimeMs": 1547143839551.785,
+      "atime": "2019-04-13T18:37:58.374Z",
+      "mtime": "2019-01-10T18:10:39.552Z",
+      "ctime": "2019-03-14T11:54:38.390Z",
+      "birthtime": "2019-01-10T18:10:39.552Z"
+    },
+    "9fb25bb4-a4a3-516f-92e1-ebf4a3d3def4": {
+      "id": "9fb25bb4-a4a3-516f-92e1-ebf4a3d3def4",
+      "children": [],
+      "parent": "8dfa7c13-1b50-5df1-b9da-7905293a7a08",
+      "internal": {
+        "contentDigest": "52d5cf4da423fd8401d765f4cc6b9ded",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "040e47ed-aaa9-5a14-aa9f-00475105026d": {
+      "id": "040e47ed-aaa9-5a14-aa9f-00475105026d",
+      "children": [
+        "c7554b99-0624-55f7-a741-7eaf2b71014a"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-icon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/gatsby-icon.png",
+      "relativePath": "gatsby-icon.png",
+      "extension": "png",
+      "size": 21212,
+      "prettySize": "21.2 kB",
+      "modifiedTime": "2019-02-23T18:02:59.393Z",
+      "accessTime": "2019-04-13T18:37:58.398Z",
+      "changeTime": "2019-03-14T10:27:43.167Z",
+      "birthTime": "2019-02-23T18:02:59.393Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "gatsby-icon.png",
+      "ext": ".png",
+      "name": "gatsby-icon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605475148,
+      "blocks": 48,
+      "atimeMs": 1555180678398.349,
+      "mtimeMs": 1550944979393.259,
+      "ctimeMs": 1552559263166.9202,
+      "birthtimeMs": 1550944979393.0662,
+      "atime": "2019-04-13T18:37:58.398Z",
+      "mtime": "2019-02-23T18:02:59.393Z",
+      "ctime": "2019-03-14T10:27:43.167Z",
+      "birthtime": "2019-02-23T18:02:59.393Z"
+    },
+    "2540d2e2-d175-536a-bad5-94572671f5f6": {
+      "id": "2540d2e2-d175-536a-bad5-94572671f5f6",
+      "children": [
+        "1e960488-826a-587e-af3b-e01e07edb59d"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "37768ba2df0cc3816a1f0ec5177e44c9",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/logo-aftereffects.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/logo-aftereffects.png",
+      "relativePath": "logo-aftereffects.png",
+      "extension": "png",
+      "size": 32677,
+      "prettySize": "32.7 kB",
+      "modifiedTime": "2019-03-18T12:10:50.911Z",
+      "accessTime": "2019-04-13T18:37:58.398Z",
+      "changeTime": "2019-03-18T12:10:59.597Z",
+      "birthTime": "2019-03-18T12:10:50.829Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "logo-aftereffects.png",
+      "ext": ".png",
+      "name": "logo-aftereffects",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605705465,
+      "blocks": 64,
+      "atimeMs": 1555180678398.4663,
+      "mtimeMs": 1552911050911.255,
+      "ctimeMs": 1552911059596.672,
+      "birthtimeMs": 1552911050829.374,
+      "atime": "2019-04-13T18:37:58.398Z",
+      "mtime": "2019-03-18T12:10:50.911Z",
+      "ctime": "2019-03-18T12:10:59.597Z",
+      "birthtime": "2019-03-18T12:10:50.829Z"
+    },
+    "77b39811-294a-5760-8283-f8a1795ed9d6": {
+      "id": "77b39811-294a-5760-8283-f8a1795ed9d6",
+      "children": [
+        "410b417d-c5e2-5fe3-99b6-abc15a7c64ed"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b1f83902be43789c03405d140807bc05",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/logo-css.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/logo-css.png",
+      "relativePath": "logo-css.png",
+      "extension": "png",
+      "size": 18377,
+      "prettySize": "18.4 kB",
+      "modifiedTime": "2019-03-18T12:17:24.563Z",
+      "accessTime": "2019-04-13T18:37:58.399Z",
+      "changeTime": "2019-03-18T12:17:24.576Z",
+      "birthTime": "2019-03-18T12:12:06.148Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "logo-css.png",
+      "ext": ".png",
+      "name": "logo-css",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605707100,
+      "blocks": 40,
+      "atimeMs": 1555180678398.9849,
+      "mtimeMs": 1552911444563.2292,
+      "ctimeMs": 1552911444575.7432,
+      "birthtimeMs": 1552911126147.5002,
+      "atime": "2019-04-13T18:37:58.399Z",
+      "mtime": "2019-03-18T12:17:24.563Z",
+      "ctime": "2019-03-18T12:17:24.576Z",
+      "birthtime": "2019-03-18T12:12:06.148Z"
+    },
+    "fdc107f1-c180-53b4-a817-1abd2d3c6791": {
+      "id": "fdc107f1-c180-53b4-a817-1abd2d3c6791",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d66ea36d22adcb9ea29d256cb30b3889",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/logo-designcode.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/logo-designcode.svg",
+      "relativePath": "logo-designcode.svg",
+      "extension": "svg",
+      "size": 2215,
+      "prettySize": "2.21 kB",
+      "modifiedTime": "2018-07-10T14:15:01.000Z",
+      "accessTime": "2019-04-13T18:37:58.399Z",
+      "changeTime": "2019-03-14T10:27:43.172Z",
+      "birthTime": "2018-07-10T14:15:01.000Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "logo-designcode.svg",
+      "ext": ".svg",
+      "name": "logo-designcode",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605475147,
+      "blocks": 8,
+      "atimeMs": 1555180678399.4646,
+      "mtimeMs": 1531232101000,
+      "ctimeMs": 1552559263171.822,
+      "birthtimeMs": 1531232101000,
+      "atime": "2019-04-13T18:37:58.399Z",
+      "mtime": "2018-07-10T14:15:01.000Z",
+      "ctime": "2019-03-14T10:27:43.172Z",
+      "birthtime": "2018-07-10T14:15:01.000Z"
+    },
+    "39180821-9522-5cea-ba71-491eda5f45ac": {
+      "id": "39180821-9522-5cea-ba71-491eda5f45ac",
+      "children": [
+        "e7ec6a6b-a4c3-5641-9c27-d6dbaaefedb1"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "12167a912ccf152f2efb78a74aa32880",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/logo-framer.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/logo-framer.png",
+      "relativePath": "logo-framer.png",
+      "extension": "png",
+      "size": 9489,
+      "prettySize": "9.49 kB",
+      "modifiedTime": "2018-07-12T15:57:44.000Z",
+      "accessTime": "2019-04-13T18:37:58.400Z",
+      "changeTime": "2019-03-14T10:27:43.182Z",
+      "birthTime": "2018-07-12T15:57:44.000Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "logo-framer.png",
+      "ext": ".png",
+      "name": "logo-framer",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605475142,
+      "blocks": 24,
+      "atimeMs": 1555180678399.929,
+      "mtimeMs": 1531411064000,
+      "ctimeMs": 1552559263181.9688,
+      "birthtimeMs": 1531411064000,
+      "atime": "2019-04-13T18:37:58.400Z",
+      "mtime": "2018-07-12T15:57:44.000Z",
+      "ctime": "2019-03-14T10:27:43.182Z",
+      "birthtime": "2018-07-12T15:57:44.000Z"
+    },
+    "4af1907d-6afd-539d-a7f8-a43399cbe945": {
+      "id": "4af1907d-6afd-539d-a7f8-a43399cbe945",
+      "children": [
+        "4ed4ce94-9923-5142-9c3f-fbfe14ad0d27"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "bdafcb3f99009dcc72a3630b0da96c3a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/logo-figma.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/logo-figma.png",
+      "relativePath": "logo-figma.png",
+      "extension": "png",
+      "size": 10090,
+      "prettySize": "10.1 kB",
+      "modifiedTime": "2018-07-12T15:57:46.000Z",
+      "accessTime": "2019-04-13T18:37:58.400Z",
+      "changeTime": "2019-03-14T10:27:43.177Z",
+      "birthTime": "2018-07-12T15:57:46.000Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "logo-figma.png",
+      "ext": ".png",
+      "name": "logo-figma",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605475140,
+      "blocks": 24,
+      "atimeMs": 1555180678399.7126,
+      "mtimeMs": 1531411066000,
+      "ctimeMs": 1552559263176.5574,
+      "birthtimeMs": 1531411066000,
+      "atime": "2019-04-13T18:37:58.400Z",
+      "mtime": "2018-07-12T15:57:46.000Z",
+      "ctime": "2019-03-14T10:27:43.177Z",
+      "birthtime": "2018-07-12T15:57:46.000Z"
+    },
+    "b198d56f-1ff1-58e7-a34f-e2c8dbd3d633": {
+      "id": "b198d56f-1ff1-58e7-a34f-e2c8dbd3d633",
+      "children": [
+        "b7a26522-ec83-5429-b826-be3663b929f2"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "9cdee42a822d08307b46152cc08ec518",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/logo-html.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/logo-html.png",
+      "relativePath": "logo-html.png",
+      "extension": "png",
+      "size": 7906,
+      "prettySize": "7.91 kB",
+      "modifiedTime": "2019-03-18T12:16:58.200Z",
+      "accessTime": "2019-04-13T18:37:58.400Z",
+      "changeTime": "2019-03-18T12:16:58.315Z",
+      "birthTime": "2019-03-18T12:13:06.275Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "logo-html.png",
+      "ext": ".png",
+      "name": "logo-html",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605706971,
+      "blocks": 16,
+      "atimeMs": 1555180678400.4775,
+      "mtimeMs": 1552911418199.9744,
+      "ctimeMs": 1552911418314.7253,
+      "birthtimeMs": 1552911186274.785,
+      "atime": "2019-04-13T18:37:58.400Z",
+      "mtime": "2019-03-18T12:16:58.200Z",
+      "ctime": "2019-03-18T12:16:58.315Z",
+      "birthtime": "2019-03-18T12:13:06.275Z"
+    },
+    "80f996df-93e9-52e7-91ff-0871d4e34d58": {
+      "id": "80f996df-93e9-52e7-91ff-0871d4e34d58",
+      "children": [
+        "f1f95f90-181f-5548-9f5e-9e835cbfb6da"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ca1cf1e3676e7377c63821d162597c87",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/logo-photoshop.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/logo-photoshop.png",
+      "relativePath": "logo-photoshop.png",
+      "extension": "png",
+      "size": 18716,
+      "prettySize": "18.7 kB",
+      "modifiedTime": "2019-03-18T12:15:28.696Z",
+      "accessTime": "2019-04-13T18:37:58.403Z",
+      "changeTime": "2019-03-18T12:15:28.734Z",
+      "birthTime": "2019-03-18T12:09:17.497Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "logo-photoshop.png",
+      "ext": ".png",
+      "name": "logo-photoshop",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605706658,
+      "blocks": 40,
+      "atimeMs": 1555180678403.1492,
+      "mtimeMs": 1552911328696.4143,
+      "ctimeMs": 1552911328734.34,
+      "birthtimeMs": 1552910957497.1511,
+      "atime": "2019-04-13T18:37:58.403Z",
+      "mtime": "2019-03-18T12:15:28.696Z",
+      "ctime": "2019-03-18T12:15:28.734Z",
+      "birthtime": "2019-03-18T12:09:17.497Z"
+    },
+    "74ec79f9-64ea-5415-9da7-f08f5188654d": {
+      "id": "74ec79f9-64ea-5415-9da7-f08f5188654d",
+      "children": [
+        "93255e82-b6df-5186-bfaf-b5246c487897"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "5584256565a502bb2012921097dcab6b",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/logo-invision.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/logo-invision.png",
+      "relativePath": "logo-invision.png",
+      "extension": "png",
+      "size": 1815,
+      "prettySize": "1.81 kB",
+      "modifiedTime": "2018-07-11T18:00:52.000Z",
+      "accessTime": "2019-04-13T18:37:58.401Z",
+      "changeTime": "2019-03-14T10:27:43.337Z",
+      "birthTime": "2018-07-11T18:00:52.000Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "logo-invision.png",
+      "ext": ".png",
+      "name": "logo-invision",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605475154,
+      "blocks": 8,
+      "atimeMs": 1555180678401.242,
+      "mtimeMs": 1531332052000,
+      "ctimeMs": 1552559263336.9346,
+      "birthtimeMs": 1531332052000,
+      "atime": "2019-04-13T18:37:58.401Z",
+      "mtime": "2018-07-11T18:00:52.000Z",
+      "ctime": "2019-03-14T10:27:43.337Z",
+      "birthtime": "2018-07-11T18:00:52.000Z"
+    },
+    "98552f16-b8a6-5540-b444-3f55b0a98cda": {
+      "id": "98552f16-b8a6-5540-b444-3f55b0a98cda",
+      "children": [
+        "d03ffdd0-3ca0-543f-ac48-76973826af4b"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "f712dd81f04d8f7b1b176a5615d3000f",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/logo-react.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/logo-react.png",
+      "relativePath": "logo-react.png",
+      "extension": "png",
+      "size": 9739,
+      "prettySize": "9.74 kB",
+      "modifiedTime": "2018-07-12T15:57:42.000Z",
+      "accessTime": "2019-04-13T18:37:58.403Z",
+      "changeTime": "2019-03-14T10:27:43.352Z",
+      "birthTime": "2018-07-12T15:57:42.000Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "logo-react.png",
+      "ext": ".png",
+      "name": "logo-react",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605475149,
+      "blocks": 24,
+      "atimeMs": 1555180678403.383,
+      "mtimeMs": 1531411062000,
+      "ctimeMs": 1552559263352.0364,
+      "birthtimeMs": 1531411062000,
+      "atime": "2019-04-13T18:37:58.403Z",
+      "mtime": "2018-07-12T15:57:42.000Z",
+      "ctime": "2019-03-14T10:27:43.352Z",
+      "birthtime": "2018-07-12T15:57:42.000Z"
+    },
+    "b23f9782-8c7d-5af9-94cb-9338282176fa": {
+      "id": "b23f9782-8c7d-5af9-94cb-9338282176fa",
+      "children": [
+        "9ccd4a42-9465-5a97-8db1-90497bb2362e"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a8abb0b21cd1a5af83d5a11853c2e302",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/logo-sketch.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/logo-sketch.png",
+      "relativePath": "logo-sketch.png",
+      "extension": "png",
+      "size": 4800,
+      "prettySize": "4.8 kB",
+      "modifiedTime": "2018-07-12T15:57:43.000Z",
+      "accessTime": "2019-04-13T18:37:58.404Z",
+      "changeTime": "2019-03-14T10:27:43.356Z",
+      "birthTime": "2018-07-12T15:57:43.000Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "logo-sketch.png",
+      "ext": ".png",
+      "name": "logo-sketch",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605475143,
+      "blocks": 16,
+      "atimeMs": 1555180678404.0798,
+      "mtimeMs": 1531411063000,
+      "ctimeMs": 1552559263356.1775,
+      "birthtimeMs": 1531411063000,
+      "atime": "2019-04-13T18:37:58.404Z",
+      "mtime": "2018-07-12T15:57:43.000Z",
+      "ctime": "2019-03-14T10:27:43.356Z",
+      "birthtime": "2018-07-12T15:57:43.000Z"
+    },
+    "b0ef775f-375d-58bb-886c-a016c1c48b96": {
+      "id": "b0ef775f-375d-58bb-886c-a016c1c48b96",
+      "children": [
+        "118ba2be-8d11-5a96-8a51-b6ab425ad2aa"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d61627254e09d6c22dc8a8f571f613b9",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/logo-studio.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/logo-studio.png",
+      "relativePath": "logo-studio.png",
+      "extension": "png",
+      "size": 2123,
+      "prettySize": "2.12 kB",
+      "modifiedTime": "2018-07-12T15:57:49.000Z",
+      "accessTime": "2019-04-13T18:37:58.404Z",
+      "changeTime": "2019-03-14T10:27:43.360Z",
+      "birthTime": "2018-07-12T15:57:49.000Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "logo-studio.png",
+      "ext": ".png",
+      "name": "logo-studio",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605475146,
+      "blocks": 8,
+      "atimeMs": 1555180678404.2725,
+      "mtimeMs": 1531411069000,
+      "ctimeMs": 1552559263360.047,
+      "birthtimeMs": 1531411069000,
+      "atime": "2019-04-13T18:37:58.404Z",
+      "mtime": "2018-07-12T15:57:49.000Z",
+      "ctime": "2019-03-14T10:27:43.360Z",
+      "birthtime": "2018-07-12T15:57:49.000Z"
+    },
+    "2408e92f-8a3d-5a65-9635-5fcbf937743a": {
+      "id": "2408e92f-8a3d-5a65-9635-5fcbf937743a",
+      "children": [
+        "65e640b4-2567-5ca5-84ce-c315154c5ec0"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4ee8e772a826562b3da179d9edaf316d",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/logo-xcode.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/logo-xcode.png",
+      "relativePath": "logo-xcode.png",
+      "extension": "png",
+      "size": 19137,
+      "prettySize": "19.1 kB",
+      "modifiedTime": "2018-07-12T15:57:42.000Z",
+      "accessTime": "2019-04-13T18:37:58.405Z",
+      "changeTime": "2019-03-14T10:27:43.368Z",
+      "birthTime": "2018-07-12T15:57:42.000Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "logo-xcode.png",
+      "ext": ".png",
+      "name": "logo-xcode",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605475145,
+      "blocks": 40,
+      "atimeMs": 1555180678404.6497,
+      "mtimeMs": 1531411062000,
+      "ctimeMs": 1552559263367.6592,
+      "birthtimeMs": 1531411062000,
+      "atime": "2019-04-13T18:37:58.405Z",
+      "mtime": "2018-07-12T15:57:42.000Z",
+      "ctime": "2019-03-14T10:27:43.368Z",
+      "birthtime": "2018-07-12T15:57:42.000Z"
+    },
+    "4006e0aa-51cb-5b1a-8659-25cd9d438fa7": {
+      "id": "4006e0aa-51cb-5b1a-8659-25cd9d438fa7",
+      "children": [
+        "26ea3183-a294-5ea2-8513-55af962fd8c8"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "dd525abc5ac8dc482cb6c43bc366d97b",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/logo-swift.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/logo-swift.png",
+      "relativePath": "logo-swift.png",
+      "extension": "png",
+      "size": 6035,
+      "prettySize": "6.04 kB",
+      "modifiedTime": "2018-07-12T15:57:45.000Z",
+      "accessTime": "2019-04-13T18:37:58.404Z",
+      "changeTime": "2019-03-14T10:27:43.364Z",
+      "birthTime": "2018-07-12T15:57:45.000Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "logo-swift.png",
+      "ext": ".png",
+      "name": "logo-swift",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605475150,
+      "blocks": 16,
+      "atimeMs": 1555180678404.461,
+      "mtimeMs": 1531411065000,
+      "ctimeMs": 1552559263364.031,
+      "birthtimeMs": 1531411065000,
+      "atime": "2019-04-13T18:37:58.404Z",
+      "mtime": "2018-07-12T15:57:45.000Z",
+      "ctime": "2019-03-14T10:27:43.364Z",
+      "birthtime": "2018-07-12T15:57:45.000Z"
+    },
+    "39ce0605-7e3b-59bd-bf4d-b91d42f0c6e3": {
+      "id": "39ce0605-7e3b-59bd-bf4d-b91d42f0c6e3",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "df68ec9c30a10249f9bb4218bd00fe78",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/logos/portfolioLogo.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/logos/portfolioLogo.svg",
+      "relativePath": "logos/portfolioLogo.svg",
+      "extension": "svg",
+      "size": 768,
+      "prettySize": "768 B",
+      "modifiedTime": "2019-04-02T22:08:38.000Z",
+      "accessTime": "2019-04-13T18:37:58.405Z",
+      "changeTime": "2019-04-03T11:48:09.069Z",
+      "birthTime": "2019-04-02T22:08:38.000Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/logos",
+      "base": "portfolioLogo.svg",
+      "ext": ".svg",
+      "name": "portfolioLogo",
+      "relativeDirectory": "logos",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8606762124,
+      "blocks": 8,
+      "atimeMs": 1555180678405.2424,
+      "mtimeMs": 1554242918000,
+      "ctimeMs": 1554292089069.1514,
+      "birthtimeMs": 1554242918000,
+      "atime": "2019-04-13T18:37:58.405Z",
+      "mtime": "2019-04-02T22:08:38.000Z",
+      "ctime": "2019-04-03T11:48:09.069Z",
+      "birthtime": "2019-04-02T22:08:38.000Z"
+    },
+    "c7554b99-0624-55f7-a741-7eaf2b71014a": {
+      "id": "c7554b99-0624-55f7-a741-7eaf2b71014a",
+      "children": [],
+      "parent": "040e47ed-aaa9-5a14-aa9f-00475105026d",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "1e960488-826a-587e-af3b-e01e07edb59d": {
+      "id": "1e960488-826a-587e-af3b-e01e07edb59d",
+      "children": [],
+      "parent": "2540d2e2-d175-536a-bad5-94572671f5f6",
+      "internal": {
+        "contentDigest": "37768ba2df0cc3816a1f0ec5177e44c9",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "410b417d-c5e2-5fe3-99b6-abc15a7c64ed": {
+      "id": "410b417d-c5e2-5fe3-99b6-abc15a7c64ed",
+      "children": [],
+      "parent": "77b39811-294a-5760-8283-f8a1795ed9d6",
+      "internal": {
+        "contentDigest": "b1f83902be43789c03405d140807bc05",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "e7ec6a6b-a4c3-5641-9c27-d6dbaaefedb1": {
+      "id": "e7ec6a6b-a4c3-5641-9c27-d6dbaaefedb1",
+      "children": [],
+      "parent": "39180821-9522-5cea-ba71-491eda5f45ac",
+      "internal": {
+        "contentDigest": "12167a912ccf152f2efb78a74aa32880",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "4ed4ce94-9923-5142-9c3f-fbfe14ad0d27": {
+      "id": "4ed4ce94-9923-5142-9c3f-fbfe14ad0d27",
+      "children": [],
+      "parent": "4af1907d-6afd-539d-a7f8-a43399cbe945",
+      "internal": {
+        "contentDigest": "bdafcb3f99009dcc72a3630b0da96c3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "b7a26522-ec83-5429-b826-be3663b929f2": {
+      "id": "b7a26522-ec83-5429-b826-be3663b929f2",
+      "children": [],
+      "parent": "b198d56f-1ff1-58e7-a34f-e2c8dbd3d633",
+      "internal": {
+        "contentDigest": "9cdee42a822d08307b46152cc08ec518",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "f1f95f90-181f-5548-9f5e-9e835cbfb6da": {
+      "id": "f1f95f90-181f-5548-9f5e-9e835cbfb6da",
+      "children": [],
+      "parent": "80f996df-93e9-52e7-91ff-0871d4e34d58",
+      "internal": {
+        "contentDigest": "ca1cf1e3676e7377c63821d162597c87",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "93255e82-b6df-5186-bfaf-b5246c487897": {
+      "id": "93255e82-b6df-5186-bfaf-b5246c487897",
+      "children": [],
+      "parent": "74ec79f9-64ea-5415-9da7-f08f5188654d",
+      "internal": {
+        "contentDigest": "5584256565a502bb2012921097dcab6b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "d03ffdd0-3ca0-543f-ac48-76973826af4b": {
+      "id": "d03ffdd0-3ca0-543f-ac48-76973826af4b",
+      "children": [],
+      "parent": "98552f16-b8a6-5540-b444-3f55b0a98cda",
+      "internal": {
+        "contentDigest": "f712dd81f04d8f7b1b176a5615d3000f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "9ccd4a42-9465-5a97-8db1-90497bb2362e": {
+      "id": "9ccd4a42-9465-5a97-8db1-90497bb2362e",
+      "children": [],
+      "parent": "b23f9782-8c7d-5af9-94cb-9338282176fa",
+      "internal": {
+        "contentDigest": "a8abb0b21cd1a5af83d5a11853c2e302",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "118ba2be-8d11-5a96-8a51-b6ab425ad2aa": {
+      "id": "118ba2be-8d11-5a96-8a51-b6ab425ad2aa",
+      "children": [],
+      "parent": "b0ef775f-375d-58bb-886c-a016c1c48b96",
+      "internal": {
+        "contentDigest": "d61627254e09d6c22dc8a8f571f613b9",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "65e640b4-2567-5ca5-84ce-c315154c5ec0": {
+      "id": "65e640b4-2567-5ca5-84ce-c315154c5ec0",
+      "children": [],
+      "parent": "2408e92f-8a3d-5a65-9635-5fcbf937743a",
+      "internal": {
+        "contentDigest": "4ee8e772a826562b3da179d9edaf316d",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "26ea3183-a294-5ea2-8513-55af962fd8c8": {
+      "id": "26ea3183-a294-5ea2-8513-55af962fd8c8",
+      "children": [],
+      "parent": "4006e0aa-51cb-5b1a-8659-25cd9d438fa7",
+      "internal": {
+        "contentDigest": "dd525abc5ac8dc482cb6c43bc366d97b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "642afca1-5627-5e25-a6ac-da0a252943cc": {
+      "id": "642afca1-5627-5e25-a6ac-da0a252943cc",
+      "children": [
+        "9ff3ed05-7f0a-50da-b76e-ffb92db7adf6"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "17846d3d6ebcc807cbce9c966bcf0b31",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/logo-xd.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/logo-xd.png",
+      "relativePath": "logo-xd.png",
+      "extension": "png",
+      "size": 93971,
+      "prettySize": "94 kB",
+      "modifiedTime": "2019-03-18T12:02:36.857Z",
+      "accessTime": "2019-04-13T18:37:58.405Z",
+      "changeTime": "2019-03-18T12:03:13.038Z",
+      "birthTime": "2019-03-18T12:02:36.855Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "logo-xd.png",
+      "ext": ".png",
+      "name": "logo-xd",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605703676,
+      "blocks": 184,
+      "atimeMs": 1555180678405.0547,
+      "mtimeMs": 1552910556857.19,
+      "ctimeMs": 1552910593038.147,
+      "birthtimeMs": 1552910556855.4014,
+      "atime": "2019-04-13T18:37:58.405Z",
+      "mtime": "2019-03-18T12:02:36.857Z",
+      "ctime": "2019-03-18T12:03:13.038Z",
+      "birthtime": "2019-03-18T12:02:36.855Z"
+    },
+    "d53542b6-78bb-5798-a291-9c11c28f70b5": {
+      "id": "d53542b6-78bb-5798-a291-9c11c28f70b5",
+      "children": [
+        "ace29ec7-424f-5eb3-93b3-d8ff52cd7c61"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d737c672cf7193dbf709b825ea681376",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/wallpaper.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/wallpaper.jpg",
+      "relativePath": "wallpaper.jpg",
+      "extension": "jpg",
+      "size": 96517,
+      "prettySize": "96.5 kB",
+      "modifiedTime": "2018-07-09T16:04:05.000Z",
+      "accessTime": "2019-04-13T18:37:58.406Z",
+      "changeTime": "2019-03-14T10:27:43.371Z",
+      "birthTime": "2018-07-09T16:04:05.000Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "wallpaper.jpg",
+      "ext": ".jpg",
+      "name": "wallpaper",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605475141,
+      "blocks": 192,
+      "atimeMs": 1555180678406.0862,
+      "mtimeMs": 1531152245000,
+      "ctimeMs": 1552559263371.1555,
+      "birthtimeMs": 1531152245000,
+      "atime": "2019-04-13T18:37:58.406Z",
+      "mtime": "2018-07-09T16:04:05.000Z",
+      "ctime": "2019-03-14T10:27:43.371Z",
+      "birthtime": "2018-07-09T16:04:05.000Z"
+    },
+    "a4a5aa8e-2395-5747-a055-16f1af2f7b82": {
+      "id": "a4a5aa8e-2395-5747-a055-16f1af2f7b82",
+      "children": [
+        "a34aed23-1700-5b66-b778-29acddf8face"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "50ab8e7c6285c1faf7b9622e76651892",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/wallpaper2.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/wallpaper2.jpg",
+      "relativePath": "wallpaper2.jpg",
+      "extension": "jpg",
+      "size": 119124,
+      "prettySize": "119 kB",
+      "modifiedTime": "2018-07-09T16:04:05.000Z",
+      "accessTime": "2019-04-13T18:37:58.406Z",
+      "changeTime": "2019-03-14T10:27:43.378Z",
+      "birthTime": "2018-07-09T16:04:05.000Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "wallpaper2.jpg",
+      "ext": ".jpg",
+      "name": "wallpaper2",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605475153,
+      "blocks": 240,
+      "atimeMs": 1555180678406.331,
+      "mtimeMs": 1531152245000,
+      "ctimeMs": 1552559263377.5076,
+      "birthtimeMs": 1531152245000,
+      "atime": "2019-04-13T18:37:58.406Z",
+      "mtime": "2018-07-09T16:04:05.000Z",
+      "ctime": "2019-03-14T10:27:43.378Z",
+      "birthtime": "2018-07-09T16:04:05.000Z"
+    },
+    "827e580e-292e-5814-8d4a-46793eacf391": {
+      "id": "827e580e-292e-5814-8d4a-46793eacf391",
+      "children": [
+        "9d62d1c1-6471-51c2-b464-2d236607eaab"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "accb270e2c93ddb80ca67db6011ea780",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/wallpaper3.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/wallpaper3.jpg",
+      "relativePath": "wallpaper3.jpg",
+      "extension": "jpg",
+      "size": 129941,
+      "prettySize": "130 kB",
+      "modifiedTime": "2018-07-09T16:04:05.000Z",
+      "accessTime": "2019-04-13T18:37:58.407Z",
+      "changeTime": "2019-03-14T10:27:43.396Z",
+      "birthTime": "2018-07-09T16:04:05.000Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "wallpaper3.jpg",
+      "ext": ".jpg",
+      "name": "wallpaper3",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605475152,
+      "blocks": 256,
+      "atimeMs": 1555180678406.5728,
+      "mtimeMs": 1531152245000,
+      "ctimeMs": 1552559263395.8125,
+      "birthtimeMs": 1531152245000,
+      "atime": "2019-04-13T18:37:58.407Z",
+      "mtime": "2018-07-09T16:04:05.000Z",
+      "ctime": "2019-03-14T10:27:43.396Z",
+      "birthtime": "2018-07-09T16:04:05.000Z"
+    },
+    "9ff3ed05-7f0a-50da-b76e-ffb92db7adf6": {
+      "id": "9ff3ed05-7f0a-50da-b76e-ffb92db7adf6",
+      "children": [],
+      "parent": "642afca1-5627-5e25-a6ac-da0a252943cc",
+      "internal": {
+        "contentDigest": "17846d3d6ebcc807cbce9c966bcf0b31",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "ace29ec7-424f-5eb3-93b3-d8ff52cd7c61": {
+      "id": "ace29ec7-424f-5eb3-93b3-d8ff52cd7c61",
+      "children": [],
+      "parent": "d53542b6-78bb-5798-a291-9c11c28f70b5",
+      "internal": {
+        "contentDigest": "d737c672cf7193dbf709b825ea681376",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "a34aed23-1700-5b66-b778-29acddf8face": {
+      "id": "a34aed23-1700-5b66-b778-29acddf8face",
+      "children": [],
+      "parent": "a4a5aa8e-2395-5747-a055-16f1af2f7b82",
+      "internal": {
+        "contentDigest": "50ab8e7c6285c1faf7b9622e76651892",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "9d62d1c1-6471-51c2-b464-2d236607eaab": {
+      "id": "9d62d1c1-6471-51c2-b464-2d236607eaab",
+      "children": [],
+      "parent": "827e580e-292e-5814-8d4a-46793eacf391",
+      "internal": {
+        "contentDigest": "accb270e2c93ddb80ca67db6011ea780",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "bfb4a06b-b737-5ec5-9bc9-a5a645d293fd": {
+      "id": "bfb4a06b-b737-5ec5-9bc9-a5a645d293fd",
+      "children": [
+        "cb21279d-d1a1-5ad5-8731-c97354cde95a"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-astronaut.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/gatsby-astronaut.png",
+      "relativePath": "gatsby-astronaut.png",
+      "extension": "png",
+      "size": 167273,
+      "prettySize": "167 kB",
+      "modifiedTime": "2019-02-23T18:02:59.393Z",
+      "accessTime": "2019-04-13T18:37:58.398Z",
+      "changeTime": "2019-03-14T10:27:43.162Z",
+      "birthTime": "2019-02-23T18:02:59.392Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "gatsby-astronaut.png",
+      "ext": ".png",
+      "name": "gatsby-astronaut",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605475144,
+      "blocks": 328,
+      "atimeMs": 1555180678398.2368,
+      "mtimeMs": 1550944979392.9424,
+      "ctimeMs": 1552559263162.0786,
+      "birthtimeMs": 1550944979391.945,
+      "atime": "2019-04-13T18:37:58.398Z",
+      "mtime": "2019-02-23T18:02:59.393Z",
+      "ctime": "2019-03-14T10:27:43.162Z",
+      "birthtime": "2019-02-23T18:02:59.392Z"
+    },
+    "556d1c69-6623-5358-b7c2-f335285aca97": {
+      "id": "556d1c69-6623-5358-b7c2-f335285aca97",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2a135e14fe8ded38bc8e3c4609964713",
+        "type": "File",
+        "mediaType": "image/gif",
+        "description": "File \"src/images/project_note.gif\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/project_note.gif",
+      "relativePath": "project_note.gif",
+      "extension": "gif",
+      "size": 144494,
+      "prettySize": "144 kB",
+      "modifiedTime": "2019-03-14T20:18:46.724Z",
+      "accessTime": "2019-04-13T18:37:58.406Z",
+      "changeTime": "2019-03-14T20:18:47.070Z",
+      "birthTime": "2019-03-14T20:18:46.336Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "project_note.gif",
+      "ext": ".gif",
+      "name": "project_note",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605571016,
+      "blocks": 288,
+      "atimeMs": 1555180678405.919,
+      "mtimeMs": 1552594726723.5193,
+      "ctimeMs": 1552594727069.5918,
+      "birthtimeMs": 1552594726335.626,
+      "atime": "2019-04-13T18:37:58.406Z",
+      "mtime": "2019-03-14T20:18:46.724Z",
+      "ctime": "2019-03-14T20:18:47.070Z",
+      "birthtime": "2019-03-14T20:18:46.336Z"
+    },
+    "54bcefd7-164c-52d8-a0ce-77b5f6c4021d": {
+      "id": "54bcefd7-164c-52d8-a0ce-77b5f6c4021d",
+      "children": [
+        "e8ac58c6-50ef-5154-9ced-28bd5adc35a3"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "576eaabc2d1c0df2d4cdc7127a9e7626",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/wallpaper4.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/wallpaper4.jpg",
+      "relativePath": "wallpaper4.jpg",
+      "extension": "jpg",
+      "size": 148370,
+      "prettySize": "148 kB",
+      "modifiedTime": "2018-07-09T16:04:05.000Z",
+      "accessTime": "2019-04-13T18:37:58.407Z",
+      "changeTime": "2019-03-14T10:27:43.430Z",
+      "birthTime": "2018-07-09T16:04:05.000Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "wallpaper4.jpg",
+      "ext": ".jpg",
+      "name": "wallpaper4",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605475151,
+      "blocks": 296,
+      "atimeMs": 1555180678407.2593,
+      "mtimeMs": 1531152245000,
+      "ctimeMs": 1552559263429.98,
+      "birthtimeMs": 1531152245000,
+      "atime": "2019-04-13T18:37:58.407Z",
+      "mtime": "2018-07-09T16:04:05.000Z",
+      "ctime": "2019-03-14T10:27:43.430Z",
+      "birthtime": "2018-07-09T16:04:05.000Z"
+    },
+    "cb21279d-d1a1-5ad5-8731-c97354cde95a": {
+      "id": "cb21279d-d1a1-5ad5-8731-c97354cde95a",
+      "children": [],
+      "parent": "bfb4a06b-b737-5ec5-9bc9-a5a645d293fd",
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "e8ac58c6-50ef-5154-9ced-28bd5adc35a3": {
+      "id": "e8ac58c6-50ef-5154-9ced-28bd5adc35a3",
+      "children": [],
+      "parent": "54bcefd7-164c-52d8-a0ce-77b5f6c4021d",
+      "internal": {
+        "contentDigest": "576eaabc2d1c0df2d4cdc7127a9e7626",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "d76c74d1-673d-5966-a809-d77a4fb20a81": {
+      "id": "d76c74d1-673d-5966-a809-d77a4fb20a81",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "5d142184a26f061a19da43dec8b90529",
+        "type": "File",
+        "mediaType": "image/gif",
+        "description": "File \"src/images/bg_1_dark.gif\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/bg_1_dark.gif",
+      "relativePath": "bg_1_dark.gif",
+      "extension": "gif",
+      "size": 249878,
+      "prettySize": "250 kB",
+      "modifiedTime": "2019-03-14T13:29:30.616Z",
+      "accessTime": "2019-04-13T18:37:58.375Z",
+      "changeTime": "2019-03-14T13:29:30.969Z",
+      "birthTime": "2019-03-14T13:29:30.572Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "bg_1_dark.gif",
+      "ext": ".gif",
+      "name": "bg_1_dark",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605517060,
+      "blocks": 496,
+      "atimeMs": 1555180678374.7651,
+      "mtimeMs": 1552570170616.2021,
+      "ctimeMs": 1552570170969.4585,
+      "birthtimeMs": 1552570170572.0913,
+      "atime": "2019-04-13T18:37:58.375Z",
+      "mtime": "2019-03-14T13:29:30.616Z",
+      "ctime": "2019-03-14T13:29:30.969Z",
+      "birthtime": "2019-03-14T13:29:30.572Z"
+    },
+    "92b64c09-9fe7-5cbf-8d02-aa8c4df4ea3d": {
+      "id": "92b64c09-9fe7-5cbf-8d02-aa8c4df4ea3d",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a9857c9c5b41018aa088e00bc2519abb",
+        "type": "File",
+        "mediaType": "image/gif",
+        "description": "File \"src/images/bg_2_pink.gif\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/bg_2_pink.gif",
+      "relativePath": "bg_2_pink.gif",
+      "extension": "gif",
+      "size": 184514,
+      "prettySize": "185 kB",
+      "modifiedTime": "2019-03-14T14:56:21.338Z",
+      "accessTime": "2019-04-13T18:37:58.398Z",
+      "changeTime": "2019-03-14T14:56:21.749Z",
+      "birthTime": "2019-03-14T14:56:21.068Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "bg_2_pink.gif",
+      "ext": ".gif",
+      "name": "bg_2_pink",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605525014,
+      "blocks": 368,
+      "atimeMs": 1555180678398.108,
+      "mtimeMs": 1552575381338.0781,
+      "ctimeMs": 1552575381748.551,
+      "birthtimeMs": 1552575381067.6694,
+      "atime": "2019-04-13T18:37:58.398Z",
+      "mtime": "2019-03-14T14:56:21.338Z",
+      "ctime": "2019-03-14T14:56:21.749Z",
+      "birthtime": "2019-03-14T14:56:21.068Z"
+    },
+    "43648507-7a96-57e8-9f58-89a317308479": {
+      "id": "43648507-7a96-57e8-9f58-89a317308479",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "699699bf14102ec4e3c962687ec9a3d4",
+        "type": "File",
+        "mediaType": "image/gif",
+        "description": "File \"src/images/bg_1.gif\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/bg_1.gif",
+      "relativePath": "bg_1.gif",
+      "extension": "gif",
+      "size": 253500,
+      "prettySize": "254 kB",
+      "modifiedTime": "2019-03-14T10:53:22.338Z",
+      "accessTime": "2019-04-13T18:37:58.374Z",
+      "changeTime": "2019-03-14T10:53:26.064Z",
+      "birthTime": "2019-03-14T10:53:22.295Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "bg_1.gif",
+      "ext": ".gif",
+      "name": "bg_1",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605493273,
+      "blocks": 496,
+      "atimeMs": 1555180678374.4802,
+      "mtimeMs": 1552560802338.294,
+      "ctimeMs": 1552560806064.154,
+      "birthtimeMs": 1552560802295.1624,
+      "atime": "2019-04-13T18:37:58.374Z",
+      "mtime": "2019-03-14T10:53:22.338Z",
+      "ctime": "2019-03-14T10:53:26.064Z",
+      "birthtime": "2019-03-14T10:53:22.295Z"
+    },
+    "77825ee4-9607-5ad6-8e96-006eccc65f89": {
+      "id": "77825ee4-9607-5ad6-8e96-006eccc65f89",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6c0267267c1d4d3dbda370a493de2125",
+        "type": "File",
+        "mediaType": "image/gif",
+        "description": "File \"src/images/bg_1_theme.gif\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/bg_1_theme.gif",
+      "relativePath": "bg_1_theme.gif",
+      "extension": "gif",
+      "size": 251152,
+      "prettySize": "251 kB",
+      "modifiedTime": "2019-03-14T15:43:03.869Z",
+      "accessTime": "2019-04-13T18:37:58.375Z",
+      "changeTime": "2019-03-14T15:43:04.179Z",
+      "birthTime": "2019-03-14T15:43:03.831Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "bg_1_theme.gif",
+      "ext": ".gif",
+      "name": "bg_1_theme",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605529997,
+      "blocks": 496,
+      "atimeMs": 1555180678375.3816,
+      "mtimeMs": 1552578183868.866,
+      "ctimeMs": 1552578184178.8113,
+      "birthtimeMs": 1552578183831.472,
+      "atime": "2019-04-13T18:37:58.375Z",
+      "mtime": "2019-03-14T15:43:03.869Z",
+      "ctime": "2019-03-14T15:43:04.179Z",
+      "birthtime": "2019-03-14T15:43:03.831Z"
+    },
+    "e3b456f8-77b6-5448-a187-763ccf0e8dca": {
+      "id": "e3b456f8-77b6-5448-a187-763ccf0e8dca",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b66d58aaf57e259dae74b13763ad82ea",
+        "type": "File",
+        "mediaType": "image/gif",
+        "description": "File \"src/images/bg_1_theme_drop.gif\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/bg_1_theme_drop.gif",
+      "relativePath": "bg_1_theme_drop.gif",
+      "extension": "gif",
+      "size": 261230,
+      "prettySize": "261 kB",
+      "modifiedTime": "2019-03-14T16:00:29.469Z",
+      "accessTime": "2019-04-13T18:37:58.376Z",
+      "changeTime": "2019-03-14T16:00:29.699Z",
+      "birthTime": "2019-03-14T16:00:29.440Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "bg_1_theme_drop.gif",
+      "ext": ".gif",
+      "name": "bg_1_theme_drop",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605531518,
+      "blocks": 512,
+      "atimeMs": 1555180678375.5947,
+      "mtimeMs": 1552579229468.5386,
+      "ctimeMs": 1552579229698.9548,
+      "birthtimeMs": 1552579229439.6785,
+      "atime": "2019-04-13T18:37:58.376Z",
+      "mtime": "2019-03-14T16:00:29.469Z",
+      "ctime": "2019-03-14T16:00:29.699Z",
+      "birthtime": "2019-03-14T16:00:29.440Z"
+    },
+    "26a330ad-7c21-5b29-a7d4-143007fde2dc": {
+      "id": "26a330ad-7c21-5b29-a7d4-143007fde2dc",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "9b886082001468d18c65fae145c727c9",
+        "type": "File",
+        "mediaType": "image/gif",
+        "description": "File \"src/images/bg_1_theme_glow.gif\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/bg_1_theme_glow.gif",
+      "relativePath": "bg_1_theme_glow.gif",
+      "extension": "gif",
+      "size": 253111,
+      "prettySize": "253 kB",
+      "modifiedTime": "2019-03-14T15:44:31.431Z",
+      "accessTime": "2019-04-13T18:37:58.376Z",
+      "changeTime": "2019-03-14T15:44:38.432Z",
+      "birthTime": "2019-03-14T15:44:31.398Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "bg_1_theme_glow.gif",
+      "ext": ".gif",
+      "name": "bg_1_theme_glow",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605530193,
+      "blocks": 496,
+      "atimeMs": 1555180678375.962,
+      "mtimeMs": 1552578271430.612,
+      "ctimeMs": 1552578278432.3337,
+      "birthtimeMs": 1552578271397.7334,
+      "atime": "2019-04-13T18:37:58.376Z",
+      "mtime": "2019-03-14T15:44:31.431Z",
+      "ctime": "2019-03-14T15:44:38.432Z",
+      "birthtime": "2019-03-14T15:44:31.398Z"
+    },
+    "4ad3ed73-9968-5e7e-a957-5d5a036ba5ef": {
+      "id": "4ad3ed73-9968-5e7e-a957-5d5a036ba5ef",
+      "children": [
+        "5610cb0d-c05a-51e6-af8f-d0b471a63575"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "410f1774d68c507705aa32de000f4444",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/logo-illustrator.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/logo-illustrator.png",
+      "relativePath": "logo-illustrator.png",
+      "extension": "png",
+      "size": 322622,
+      "prettySize": "323 kB",
+      "modifiedTime": "2019-03-18T12:15:55.896Z",
+      "accessTime": "2019-04-13T18:37:58.401Z",
+      "changeTime": "2019-03-18T12:15:55.905Z",
+      "birthTime": "2019-03-18T12:08:59.539Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "logo-illustrator.png",
+      "ext": ".png",
+      "name": "logo-illustrator",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605706777,
+      "blocks": 632,
+      "atimeMs": 1555180678401.0376,
+      "mtimeMs": 1552911355896.4739,
+      "ctimeMs": 1552911355905.263,
+      "birthtimeMs": 1552910939538.6296,
+      "atime": "2019-04-13T18:37:58.401Z",
+      "mtime": "2019-03-18T12:15:55.896Z",
+      "ctime": "2019-03-18T12:15:55.905Z",
+      "birthtime": "2019-03-18T12:08:59.539Z"
+    },
+    "cd978bc7-fc3c-580c-acae-48d1e06fd436": {
+      "id": "cd978bc7-fc3c-580c-acae-48d1e06fd436",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b6eb55957f137d4c94b780e384e17d90",
+        "type": "File",
+        "mediaType": "image/gif",
+        "description": "File \"src/images/project_accentpos.gif\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/project_accentpos.gif",
+      "relativePath": "project_accentpos.gif",
+      "extension": "gif",
+      "size": 228433,
+      "prettySize": "228 kB",
+      "modifiedTime": "2019-03-14T16:14:25.069Z",
+      "accessTime": "2019-04-13T18:37:58.405Z",
+      "changeTime": "2019-03-14T16:14:25.797Z",
+      "birthTime": "2019-03-14T16:14:25.035Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "project_accentpos.gif",
+      "ext": ".gif",
+      "name": "project_accentpos",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605532854,
+      "blocks": 448,
+      "atimeMs": 1555180678405.4272,
+      "mtimeMs": 1552580065069.2178,
+      "ctimeMs": 1552580065796.7607,
+      "birthtimeMs": 1552580065035.0054,
+      "atime": "2019-04-13T18:37:58.405Z",
+      "mtime": "2019-03-14T16:14:25.069Z",
+      "ctime": "2019-03-14T16:14:25.797Z",
+      "birthtime": "2019-03-14T16:14:25.035Z"
+    },
+    "5610cb0d-c05a-51e6-af8f-d0b471a63575": {
+      "id": "5610cb0d-c05a-51e6-af8f-d0b471a63575",
+      "children": [],
+      "parent": "4ad3ed73-9968-5e7e-a957-5d5a036ba5ef",
+      "internal": {
+        "contentDigest": "410f1774d68c507705aa32de000f4444",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "9127962a-21ba-582b-88c5-0e012fcfd03d": {
+      "id": "9127962a-21ba-582b-88c5-0e012fcfd03d",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "cfd80f3c9e00e92fc510ca18a3ac7879",
+        "type": "File",
+        "mediaType": "image/gif",
+        "description": "File \"src/images/bg_2_light.gif\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/bg_2_light.gif",
+      "relativePath": "bg_2_light.gif",
+      "extension": "gif",
+      "size": 302467,
+      "prettySize": "302 kB",
+      "modifiedTime": "2019-03-14T14:47:32.176Z",
+      "accessTime": "2019-04-13T18:37:58.397Z",
+      "changeTime": "2019-03-14T14:47:32.565Z",
+      "birthTime": "2019-03-14T14:47:32.125Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "bg_2_light.gif",
+      "ext": ".gif",
+      "name": "bg_2_light",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605524514,
+      "blocks": 592,
+      "atimeMs": 1555180678397.4717,
+      "mtimeMs": 1552574852176.1165,
+      "ctimeMs": 1552574852564.957,
+      "birthtimeMs": 1552574852124.592,
+      "atime": "2019-04-13T18:37:58.397Z",
+      "mtime": "2019-03-14T14:47:32.176Z",
+      "ctime": "2019-03-14T14:47:32.565Z",
+      "birthtime": "2019-03-14T14:47:32.125Z"
+    },
+    "bc386700-d1ae-58ba-a9cf-4739464689ff": {
+      "id": "bc386700-d1ae-58ba-a9cf-4739464689ff",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "bb3e49b3dc8d59443820c08e90684643",
+        "type": "File",
+        "mediaType": "image/gif",
+        "description": "File \"src/images/project_blum.gif\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/project_blum.gif",
+      "relativePath": "project_blum.gif",
+      "extension": "gif",
+      "size": 632063,
+      "prettySize": "632 kB",
+      "modifiedTime": "2019-03-14T19:07:20.998Z",
+      "accessTime": "2019-04-13T18:37:58.406Z",
+      "changeTime": "2019-03-14T19:07:21.326Z",
+      "birthTime": "2019-03-14T19:07:20.957Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "project_blum.gif",
+      "ext": ".gif",
+      "name": "project_blum",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605566959,
+      "blocks": 1240,
+      "atimeMs": 1555180678405.6033,
+      "mtimeMs": 1552590440997.7656,
+      "ctimeMs": 1552590441325.766,
+      "birthtimeMs": 1552590440956.9524,
+      "atime": "2019-04-13T18:37:58.406Z",
+      "mtime": "2019-03-14T19:07:20.998Z",
+      "ctime": "2019-03-14T19:07:21.326Z",
+      "birthtime": "2019-03-14T19:07:20.957Z"
+    },
+    "f944e52d-f29b-562b-aa4a-15e7e2c08ecf": {
+      "id": "f944e52d-f29b-562b-aa4a-15e7e2c08ecf",
+      "children": [
+        "182187db-f28e-502d-bcdb-c1f4f59482f6"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "876f303ba2156d821f7e2a687bbab265",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/websiteScreens/noteWebsite.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/websiteScreens/noteWebsite.png",
+      "relativePath": "websiteScreens/noteWebsite.png",
+      "extension": "png",
+      "size": 1595604,
+      "prettySize": "1.6 MB",
+      "modifiedTime": "2019-03-21T12:36:50.763Z",
+      "accessTime": "2019-04-13T18:37:58.715Z",
+      "changeTime": "2019-03-21T12:40:17.802Z",
+      "birthTime": "2019-03-21T12:36:50.723Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/websiteScreens",
+      "base": "noteWebsite.png",
+      "ext": ".png",
+      "name": "noteWebsite",
+      "relativeDirectory": "websiteScreens",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605806231,
+      "blocks": 3120,
+      "atimeMs": 1555180678714.9897,
+      "mtimeMs": 1553171810762.5435,
+      "ctimeMs": 1553172017801.7852,
+      "birthtimeMs": 1553171810722.9414,
+      "atime": "2019-04-13T18:37:58.715Z",
+      "mtime": "2019-03-21T12:36:50.763Z",
+      "ctime": "2019-03-21T12:40:17.802Z",
+      "birthtime": "2019-03-21T12:36:50.723Z"
+    },
+    "182187db-f28e-502d-bcdb-c1f4f59482f6": {
+      "id": "182187db-f28e-502d-bcdb-c1f4f59482f6",
+      "children": [],
+      "parent": "f944e52d-f29b-562b-aa4a-15e7e2c08ecf",
+      "internal": {
+        "contentDigest": "876f303ba2156d821f7e2a687bbab265",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "0d8a4822-1269-526b-9bdf-33b3d57d9d7d": {
+      "id": "0d8a4822-1269-526b-9bdf-33b3d57d9d7d",
+      "children": [
+        "9717a1c0-5d32-5fac-a394-480924f10b27"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "12c034923f9d05f2f5117faf42822144",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/bg_1_theme_light-07.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/bg_1_theme_light-07.png",
+      "relativePath": "bg_1_theme_light-07.png",
+      "extension": "png",
+      "size": 3782096,
+      "prettySize": "3.78 MB",
+      "modifiedTime": "2019-03-18T14:02:27.000Z",
+      "accessTime": "2019-04-14T18:33:51.626Z",
+      "changeTime": "2019-04-11T23:18:54.420Z",
+      "birthTime": "2019-03-18T14:02:25.000Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images",
+      "base": "bg_1_theme_light-07.png",
+      "ext": ".png",
+      "name": "bg_1_theme_light-07",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8607422363,
+      "blocks": 7392,
+      "atimeMs": 1555266831625.611,
+      "mtimeMs": 1552917747000,
+      "ctimeMs": 1555024734419.6262,
+      "birthtimeMs": 1552917745000,
+      "atime": "2019-04-14T18:33:51.626Z",
+      "mtime": "2019-03-18T14:02:27.000Z",
+      "ctime": "2019-04-11T23:18:54.420Z",
+      "birthtime": "2019-03-18T14:02:25.000Z"
+    },
+    "9717a1c0-5d32-5fac-a394-480924f10b27": {
+      "id": "9717a1c0-5d32-5fac-a394-480924f10b27",
+      "children": [],
+      "parent": "0d8a4822-1269-526b-9bdf-33b3d57d9d7d",
+      "internal": {
+        "contentDigest": "12c034923f9d05f2f5117faf42822144",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "b06b506d-115d-5c5d-8514-e67c97a4af4b": {
+      "id": "b06b506d-115d-5c5d-8514-e67c97a4af4b",
+      "children": [
+        "a2c6a903-6cc9-5d4f-be4f-971b2acebcb4"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "c5a1b6b92b9108b431b522a4bfe8fc0a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/websiteScreens/aposWebsite.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/websiteScreens/aposWebsite.png",
+      "relativePath": "websiteScreens/aposWebsite.png",
+      "extension": "png",
+      "size": 15763408,
+      "prettySize": "15.8 MB",
+      "modifiedTime": "2019-03-21T12:38:04.000Z",
+      "accessTime": "2019-04-14T18:33:51.626Z",
+      "changeTime": "2019-04-11T23:19:20.333Z",
+      "birthTime": "2019-03-21T12:38:04.000Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/websiteScreens",
+      "base": "aposWebsite.png",
+      "ext": ".png",
+      "name": "aposWebsite",
+      "relativeDirectory": "websiteScreens",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8607422475,
+      "blocks": 30792,
+      "atimeMs": 1555266831625.7444,
+      "mtimeMs": 1553171884000,
+      "ctimeMs": 1555024760333.387,
+      "birthtimeMs": 1553171884000,
+      "atime": "2019-04-14T18:33:51.626Z",
+      "mtime": "2019-03-21T12:38:04.000Z",
+      "ctime": "2019-04-11T23:19:20.333Z",
+      "birthtime": "2019-03-21T12:38:04.000Z"
+    },
+    "a2c6a903-6cc9-5d4f-be4f-971b2acebcb4": {
+      "id": "a2c6a903-6cc9-5d4f-be4f-971b2acebcb4",
+      "children": [],
+      "parent": "b06b506d-115d-5c5d-8514-e67c97a4af4b",
+      "internal": {
+        "contentDigest": "c5a1b6b92b9108b431b522a4bfe8fc0a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "47926f28-4c91-57cc-bea3-4b5f7fa53b51": {
+      "id": "47926f28-4c91-57cc-bea3-4b5f7fa53b51",
+      "children": [
+        "8f93bae5-b849-545d-bfcf-227ed827cfd9"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "81e2f9107c6aa4e0b4b62c6106c1c721",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/websiteScreens/blumWebsite.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/websiteScreens/blumWebsite.png",
+      "relativePath": "websiteScreens/blumWebsite.png",
+      "extension": "png",
+      "size": 16932435,
+      "prettySize": "16.9 MB",
+      "modifiedTime": "2019-03-21T12:37:22.000Z",
+      "accessTime": "2019-04-14T18:33:51.626Z",
+      "changeTime": "2019-04-11T23:19:20.321Z",
+      "birthTime": "2019-03-21T12:37:22.000Z",
+      "root": "/",
+      "dir": "/Users/jameslomas/Desktop/Personal-Portfolio/src/images/websiteScreens",
+      "base": "blumWebsite.png",
+      "ext": ".png",
+      "name": "blumWebsite",
+      "relativeDirectory": "websiteScreens",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8607422476,
+      "blocks": 33072,
+      "atimeMs": 1555266831625.7512,
+      "mtimeMs": 1553171842000,
+      "ctimeMs": 1555024760320.772,
+      "birthtimeMs": 1553171842000,
+      "atime": "2019-04-14T18:33:51.626Z",
+      "mtime": "2019-03-21T12:37:22.000Z",
+      "ctime": "2019-04-11T23:19:20.321Z",
+      "birthtime": "2019-03-21T12:37:22.000Z"
+    },
+    "8f93bae5-b849-545d-bfcf-227ed827cfd9": {
+      "id": "8f93bae5-b849-545d-bfcf-227ed827cfd9",
+      "children": [],
+      "parent": "47926f28-4c91-57cc-bea3-4b5f7fa53b51",
+      "internal": {
+        "contentDigest": "81e2f9107c6aa4e0b4b62c6106c1c721",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/jameslomas/Desktop/Personal-Portfolio/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "b8c7762f-a0af-577b-b69c-c42967bb9bf3",
+      "pluginCreatorId": "b8c7762f-a0af-577b-b69c-c42967bb9bf3",
+      "componentPath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3f36d9aa99aa93c80682cb77ed676ef1",
+        "description": "b8c7762f-a0af-577b-b69c-c42967bb9bf3",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /accentpos/": {
+      "jsonName": "accentpos-b24",
+      "internalComponentName": "ComponentAccentpos",
+      "path": "/accentpos/",
+      "component": "/Users/jameslomas/Desktop/Personal-Portfolio/src/pages/accentpos.js",
+      "componentChunkName": "component---src-pages-accentpos-js",
+      "context": {},
+      "pluginCreator___NODE": "b8c7762f-a0af-577b-b69c-c42967bb9bf3",
+      "pluginCreatorId": "b8c7762f-a0af-577b-b69c-c42967bb9bf3",
+      "componentPath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/pages/accentpos.js",
+      "id": "SitePage /accentpos/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c4a10a8c8367901bb82c72051759cac1",
+        "description": "b8c7762f-a0af-577b-b69c-c42967bb9bf3",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/jameslomas/Desktop/Personal-Portfolio/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "b8c7762f-a0af-577b-b69c-c42967bb9bf3",
+      "pluginCreatorId": "b8c7762f-a0af-577b-b69c-c42967bb9bf3",
+      "componentPath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d147097d5fec5047995cdad5af5f5dea",
+        "description": "b8c7762f-a0af-577b-b69c-c42967bb9bf3",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /page-2/": {
+      "jsonName": "page-2-fbc",
+      "internalComponentName": "ComponentPage2",
+      "path": "/page-2/",
+      "component": "/Users/jameslomas/Desktop/Personal-Portfolio/src/pages/page-2.js",
+      "componentChunkName": "component---src-pages-page-2-js",
+      "context": {},
+      "pluginCreator___NODE": "b8c7762f-a0af-577b-b69c-c42967bb9bf3",
+      "pluginCreatorId": "b8c7762f-a0af-577b-b69c-c42967bb9bf3",
+      "componentPath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/pages/page-2.js",
+      "id": "SitePage /page-2/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "1e0e2d22e5dfd11a350b201048431ad5",
+        "description": "b8c7762f-a0af-577b-b69c-c42967bb9bf3",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /portfolio/": {
+      "jsonName": "portfolio-964",
+      "internalComponentName": "ComponentPortfolio",
+      "path": "/portfolio/",
+      "component": "/Users/jameslomas/Desktop/Personal-Portfolio/src/pages/portfolio.js",
+      "componentChunkName": "component---src-pages-portfolio-js",
+      "context": {},
+      "pluginCreator___NODE": "b8c7762f-a0af-577b-b69c-c42967bb9bf3",
+      "pluginCreatorId": "b8c7762f-a0af-577b-b69c-c42967bb9bf3",
+      "componentPath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/pages/portfolio.js",
+      "id": "SitePage /portfolio/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ea7b97be98b45a2476cf5f6980733815",
+        "description": "b8c7762f-a0af-577b-b69c-c42967bb9bf3",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/jameslomas/Desktop/Personal-Portfolio/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ec98c059259fd028973afeb8104f0814",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {
+      "gatsby-source-contentful": {
+        "gawu86z9abol-master-cdn.contentful.com": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdybDrQcjEFvChT3Dgl_DsDdQwonCrnLDs3AkaizDqHPDt8O9w7wzw5cbVMKZwoVQwqnCpggNwp3CtSLDlcKtInvCpgl3w6dJDDfDrsKxwpllw4tPw4TCs8OlwqrDtDQsMg"
+      }
+    },
+    "PLUGINS_HASH": "4697a1dc03ccc4c0622e987a27411606"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-layout-js",
+        "sq--src-components-seo-js"
+      ],
+      "9db7badb-7ae9-599d-a250-72d3987713e1": [
+        "sq--src-components-layout-js"
+      ]
+    },
+    "connections": {
+      "ContentfulLink": [
+        "sq--src-components-layout-js"
+      ],
+      "ContentfulPortfolioItem": [
+        "sq--src-components-layout-js"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-layout-js": 698082069,
+    "sq--src-components-seo-js": 1025518380,
+    "accentpos-b24": "226/path---accentpos-b-24-b64-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
+    "portfolio-964": "107/path---portfolio-964-7f6-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+  },
+  "components": {
+    "/Users/jameslomas/Desktop/Personal-Portfolio/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/jameslomas/Desktop/Personal-Portfolio/.cache/dev-404-page.js"
+    },
+    "/Users/jameslomas/Desktop/Personal-Portfolio/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/pages/404.js"
+    },
+    "/Users/jameslomas/Desktop/Personal-Portfolio/src/pages/accentpos.js": {
+      "query": "",
+      "componentPath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/pages/accentpos.js"
+    },
+    "/Users/jameslomas/Desktop/Personal-Portfolio/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/pages/index.js"
+    },
+    "/Users/jameslomas/Desktop/Personal-Portfolio/src/pages/page-2.js": {
+      "query": "",
+      "componentPath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/pages/page-2.js"
+    },
+    "/Users/jameslomas/Desktop/Personal-Portfolio/src/pages/portfolio.js": {
+      "query": "",
+      "componentPath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/pages/portfolio.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      keywords\n    }\n  }\n  allContentfulLink(sort: {fields: [createdAt], order: ASC}) {\n    edges {\n      node {\n        title\n        url\n        createdAt\n      }\n    }\n  }\n  allContentfulPortfolioItem {\n    edges {\n      node {\n        title\n        type\n        backgroundImage {\n          id\n        }\n      }\n    }\n  }\n}\n",
+      "hash": 698082069
+    },
+    "sq--src-components-seo-js": {
+      "name": "DefaultSEOQuery",
+      "componentPath": "/Users/jameslomas/Desktop/Personal-Portfolio/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 1025518380
+    }
+  }
+}

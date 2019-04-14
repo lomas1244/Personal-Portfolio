@@ -1,0 +1,100 @@
+.NavContainer {
+  background-color: rgba(255, 255, 255, 0) !important;
+  box-shadow: none !important;
+  position: fixed;
+  width: 100%;
+  padding: 15px 30px;
+  height: 60px !important;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  margin-bottom: 0 !important;
+}
+
+.NavContainer img {
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.NavContainerScrolled {
+  background-color: rgba(212, 20, 90, 0.8) !important;
+  padding: 0 30px;
+  backdrop-filter: blur(20px);
+}
+
+.NavContainerScrolled img {
+  width: 30px !important;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.NavGroup {
+  max-width: 1440px !important;
+  width: 100%;
+  margin: 0 auto;
+  height: inherit;
+}
+
+.NavItems {
+  display: grid;
+  grid-template-columns: 5% auto 5%;
+  align-items: center;
+  justify-items: center;
+  margin-top: -18px !important;
+}
+
+.MuiToolbar-root-37 {
+  display: unset !important;
+}
+
+.MuiAppBar-root-1 {
+  display: unset !important;
+}
+
+.NavDrawer {
+  width: 500px;
+}
+
+@media (max-width: 720px) {
+  .NavDrawer {
+    width: 50%;
+  }
+}
+
+.NavCardGroup {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+  margin: 0 20px;
+}
+
+.MuiIconButton-root-41 {
+  background-color: #d4145a !important;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.NavContainerScrolled .MuiIconButton-root-41 {
+  background-color: rgba(255, 255, 255, 0) !important;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.MuiDrawer-paperAnchorDockedRight-68 {
+  border-left: none !important;
+}
+
+.MuiList-padding-83 {
+  padding-top: 0 !important;
+}
+
+.NavDrawerItem {
+  background-image: url(../../images/bg_1_theme_drop.gif);
+  background-size: cover;
+  height: 100%;
+}
+
+ul {
+  padding: 0 !important;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.linkList {
+  height: 100%;
+}

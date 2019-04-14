@@ -1,0 +1,9 @@
+.Avatar {
+  margin: 5px 0 0 20px;
+  align-items: center;
+}
+
+.Avatar img {
+  width: 32px;
+  border-radius: 16px;
+}

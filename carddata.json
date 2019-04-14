@@ -1,0 +1,29 @@
+{
+  "cards": [
+    {
+      "title": "AccentPOS®",
+      "subtitle": "iOS Application",
+      "image": "https://s3.eu-west-2.amazonaws.com/jamesportfolio/project_accentpos.gif"
+    },
+    {
+      "title": "Blüm",
+      "subtitle": "Web App",
+      "image": "https://s3.eu-west-2.amazonaws.com/jamesportfolio/project_blum.gif"
+    },
+    {
+      "title": "Note®",
+      "subtitle": "iOS Application",
+      "image": "https://s3.eu-west-2.amazonaws.com/jamesportfolio/project_note.gif"
+    },
+    {
+      "title": "AccentPOS®",
+      "subtitle": "iOS Application",
+      "image": "https://s3.eu-west-2.amazonaws.com/jamesportfolio/project_accentpos.gif"
+    },
+    {
+      "title": "AccentPOS®",
+      "subtitle": "iOS Application",
+      "image": "https://s3.eu-west-2.amazonaws.com/jamesportfolio/project_accentpos.gif"
+    }
+  ]
+}

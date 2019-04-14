@@ -1,0 +1,17 @@
+#render-props-popover {
+  margin-top: 18px;
+}
+
+.hoverContainer {
+  width: 200px;
+}
+
+.avatarHover {
+  cursor: pointer;
+}
+
+.hoverItems {
+  cursor: pointer;
+  list-style: none;
+  text-align: right;
+}

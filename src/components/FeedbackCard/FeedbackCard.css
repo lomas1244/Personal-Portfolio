@@ -1,0 +1,25 @@
+.FeedbackContainer {
+  background: #fff;
+  width: 400px;
+  height: 280px;
+  border-radius: 20px;
+  padding: 1em;
+  margin-right: 30px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  cursor: pointer;
+}
+
+.FeedbackContent {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  border: 1px solid #ff5887;
+}
+
+@media (max-width: 720px) {
+  .FeedbackContainer {
+    width: 250px;
+    height: 320px;
+  }
+}
