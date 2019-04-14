@@ -1,19 +1,18 @@
-import React from "react"
-import { Link } from "gatsby"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Card from "../components/Cards/Card"
-import Section from "../components/Section"
-import Wave from "../components/Wave"
-import staticdata from "../../staticdata.json"
-import Cell from "../components/Cell"
-import styled from "styled-components"
-import carddata from "../../carddata.json"
-import BlogCard from "../components/BlogCards/BlogCard"
-import blogdata from "../../blogdata.json"
-import BlogItem from "../components/BlogModal/BlogModal"
-import SecondarySection from "../components/SecondSection/SecondarySection"
-import { StaticQuery, graphql } from "gatsby"
+import React from "react";
+import { Link } from "gatsby";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import Card from "../components/Cards/Card";
+import Section from "../components/Section";
+import Wave from "../components/Wave";
+import staticdata from "../../staticdata.json";
+import Cell from "../components/Cell";
+import styled from "styled-components";
+import carddata from "../../carddata.json";
+import BlogCard from "../components/BlogCards/BlogCard";
+import blogdata from "../../blogdata.json";
+import BlogItem from "../components/BlogModal/BlogModal";
+import { StaticQuery, graphql } from "gatsby";
 
 const SectionCaption = styled.p`
   font-weight: 600;
@@ -21,7 +20,7 @@ const SectionCaption = styled.p`
   text-transform: uppercase;
   color: #94a4ba;
   text-align: center;
-`
+`;
 
 const SectionCellGroup = styled.div`
   max-width: 1440px;
@@ -34,7 +33,7 @@ const SectionCellGroup = styled.div`
   @media (max-width: 800px) {
     grid-template-columns: repeat(1, 1fr);
   }
-`
+`;
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -164,8 +163,8 @@ const IndexPage = ({ data }) => (
         ))}
       </SectionCellGroup> */}
     </div>
-    <SecondarySection image={require("../images/bg_2_pink.gif")} />
+    {/* <SecondarySection image={require("../images/bg_2_pink.gif")} /> */}
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;

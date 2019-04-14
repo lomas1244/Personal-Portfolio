@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{143:function(e,t,a){"use strict";a.r(t);var o=a(0),n=a.n(o),l=a(158),c=a(171),r=a(169);t.default=function(){return n.a.createElement(c.a,null,n.a.createElement(r.a,{title:"AccentPOS Project"}),n.a.createElement("h1",null,"Hi from the Portfolio page"),n.a.createElement("p",null,"Welcome to my Portfolio"),n.a.createElement(l.a,{to:"/"},"Go back to the homepage"))}}}]);
+//# sourceMappingURL=component---src-pages-accentpos-js-a472e256c55ebea92860.js.map
